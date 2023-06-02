@@ -3,6 +3,11 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.rounded {
+    border-style: solid;
+    border-color:#6b4600;
+}
+
 /*Navbar styling*/
 
 #mainNavbar {
@@ -26,4 +31,39 @@ body {
 
 .navbar.scrolled {
     background: #6b4600;
+}
+
+/*Header styling*/
+
+#headingGroup h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+/*responsive header media query for smaller screens*/
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+
+/*First Section*/
+
+.content {
+    margin-top: 100px;
+}
+
+#sectionGroup h2 {
+    font-size:2.5rem;
+    font-weight: 400;
+    color: #6b4600;
+    text-shadow: 1px 1px;
+}
+
+#sectionGroup p {
+    color:#7e5202;
+    text-shadow: 1px 1px;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2;
 }
