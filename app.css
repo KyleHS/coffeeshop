@@ -2,3 +2,28 @@ body {
     background: #f1ad2e;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+/*Navbar styling*/
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 1px 1px;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color:#ad7100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ad7100;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background: #6b4600;
+}
