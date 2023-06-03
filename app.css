@@ -1,6 +1,7 @@
 body {
     background: #f1ad2e;
     font-family: 'Josefin Sans', sans-serif;
+    max-width: 100%;
 }
 
 .rounded {
